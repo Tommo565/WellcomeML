@@ -1,6 +1,7 @@
 import os
 
 MODELS_DIR = os.path.expanduser("~/.cache/wellcomeml/models")
+CACHE_DIR = os.path.expanduser("~/.cache/wellcomeml/cache")
 
 MODEL_DISPATCH = {
     'scibert_scivocab_uncased': {
