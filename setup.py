@@ -50,7 +50,6 @@ setuptools.setup(
         'twine',
         'gensim',
         'cython'
->>>>>>> ba9632f... Add cython to setup py so sent2vec can install
     ],
     extras_require={
         'deep-learning': [

@@ -14,7 +14,6 @@ if development_transformers_mode:
     from .bert_semantic_equivalence import SemanticEquivalenceClassifier
 else:
     from .frequency_vectorizer import WellcomeTfidf
-    from .doc2vec import Doc2VecVectorizer
     from .sent2vec_vectorizer import Sent2VecVectorizer
 
     try:
